@@ -11,7 +11,7 @@ Postman, Chrome uzantısı olarak kullanabileceğimiz veya direct indirip bilgis
 * PUT: Post isteğinin özelliklerine sahiptir. Yani CRUD operasyonlarından Create ve Update operasyonlarını yapmak istediğimizde kullanıyoruz.
 * DELETE: CRUD operasyonlarından Delete’e karşılık gelir. Bir veriyi silmek istediğimizde kullanabiliriz.  
   
- API (Application Programming Interface - Uygulama Programlama Arayüzü)
+ # API (Application Programming Interface - Uygulama Programlama Arayüzü)
    
 API:  karmaşıklığı yazılım geliştiricilerden gizleyen, kodları düzenleyen ve bileşenleri yeniden kullanılabilir hale getiren bir mekanizmadır.
 Bir uygulamanın, servisin ve/veya platformun (örn. Chrome, Firefox, HTML, macOS, Youtube, Twitter, Facebook, Google, WordPress, Ubuntu, Android, jQuery, ...) sahip olduğu yeteneklere izin verilen sınırlandırmalar dahilinde dışarıdan erişilebilmesini sağlayan bir arayüzdür.
