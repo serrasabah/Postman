@@ -57,3 +57,4 @@ https://www.argenova.com.tr/api-nedir
 https://medium.com/huawei-developers-tr/postman-nedir-83eeaa5ed6ac
 https://medium.com/kodcular/postman-nedir-ce39bef14db7
 https://www.atakdomain.com/blog/rest-ve-restful-nedir
+https://www.youtube.com/watch?v=9-O7fWP5gPg
