@@ -16,12 +16,21 @@ Postman, Chrome uzantısı olarak kullanabileceğimiz veya direct indirip bilgis
 API:  karmaşıklığı yazılım geliştiricilerden gizleyen, kodları düzenleyen ve bileşenleri yeniden kullanılabilir hale getiren bir mekanizmadır.
 Bir uygulamanın, servisin ve/veya platformun (örn. Chrome, Firefox, HTML, macOS, Youtube, Twitter, Facebook, Google, WordPress, Ubuntu, Android, jQuery, ...) sahip olduğu yeteneklere izin verilen sınırlandırmalar dahilinde dışarıdan erişilebilmesini sağlayan bir arayüzdür.
 
-   REST API ve SOAP API Nedir?
+*API'nin Türleri Nelerdir?*
+* **Open API (diğer adıyla Public API)** : Minimum kısıtlama ile geliştiriciler ve diğer kullanıcılar tarafından herkesin kullanımına açık API'lerdir. 
+* **Internal API (diğer adıyla Private API)** : Harici kullanıcılardan gizlenir ve yalnızca dahili sistemler tarafından açığa çıkarılır. 
+* **Partner API** : Stratejik iş ortaklarına veya stratejik iş ortakları tarafından sunulan API'lerdir. 
+* **Composite API** : Composite API'ler birden çok veri veya hizmet API'sini birleştiren API'lerdir.
+
+
+
+   *REST API ve SOAP API Nedir?*
    
 **SOAP API (Simple Object Access Protocol)**
 * SOAP web servis çağrılarında RPC (Remote Procedure Call) modelini kullanan, istemci/sunucu mantığına dayalı bir protokol olarak ifade edilebilir. 
 * Metotların call edilmesi üzerine alınan response da dahil sürecin tamamı XML olarak ve genellikle HTTP (Hyper Text Transfer Protocol) protokolü kullanılarak iletilir. 
 * XML yapısı sebebiyle REST’e kıyasla daha katı bir işleyişe sahip olduğu için pek tercih edilmemektedir. 
+
 
 **REST  (Representational State Transfer)**
 * SOAP ve WSDL tabanlı web servislerinin daha basite indirgenmiş hali olarak nitelendirilebilir. 
@@ -29,14 +38,14 @@ Bir uygulamanın, servisin ve/veya platformun (örn. Chrome, Firefox, HTML, macO
 * REST API, istemci ve sunucu arasında XML, JSON, HTML, TEXT başta olmak üzere pek çok formatta veri taşıyarak uygulamaların haberleşmesini sağlar.
 * Client-server arasında yani kullanıcı ile sunucu arasında daha hızlı ve daha pratik bir şekilde iletişim gerçekleştirilmesi için kullanılan bir servis yapısıdır.
 
-*Rest Mimarisi ve Tarihçesi
+*Rest Mimarisi ve Tarihçesi*
 * Bu servis Roy Thomas Fielding tarafından 2000 yılında geliştirilmiştir.
 * Performans açısından baskın bir avantaja sahiptir.
 * Çok sade ve rahat kullanılabilir bir arayüzü bulunmaktadır.
 * REST, servis ajanlarınca yani hizmet vekilleri tarafından bileşenler arasındaki haberleşme görünürlüğü sağlamaktadır.
 * Bir veri ile beraber program kodu hareket ettirildiğinde, istenilen bileşen kolaylıkla taşınabilir.
 
-*REST’in temelde şu mimari stil prensipleri çerçevesinde geliştirilmesi beklenir:
+*REST’in temelde şu mimari stil prensipleri çerçevesinde geliştirilmesi beklenir:*
 * Layered System (Tabakalı Sistem)
 * REST Üzerinde Kullanılan HTTP Metotları
 * Stateless (Bağımsız)
@@ -44,6 +53,7 @@ Bir uygulamanın, servisin ve/veya platformun (örn. Chrome, Firefox, HTML, macO
 * Code On Demand (İsteğe Bağlı Kod)
 * Cach Edilebilme
 * Client-Serer Mimarisi (Kullanıcı-Sunucu Mimarisi)
+
 
 **RESTFUL NEDİR**
 * REST bir mimari yapı oluşturmak ile birlikte bu mimari yapı kendine ait bir prensibe sahiptir ve belirlenen özellikleri ile kullanım gerçekleştirildiğinde, bu kullanım sonucunda da RESTful servis ortaya çıkar. Yani RESTful için REST mimari kullanımı gerçekleştiren web servisleridir.
