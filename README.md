@@ -1,20 +1,19 @@
 # Postman
 
-  Postman Nedir?
+
 Postman, Chrome uzantısı olarak kullanabileceğimiz veya direct indirip bilgisayarımıza yükleyebileceğimiz bir uygulamadır. Rest Client olarak da tanımlanabilir.
 * Postman sayesinde uzun uzun kodlar yazmak yerine API’lerimizi kolayca test edebiliriz. Birçok özelliği sayesinde kolay bir şekilde istek hazırlayıp gelen cevap değerlerini kullanabiliriz.
-* Hazırladığınız request’leri export edip arkadaşlarınızla da paylaşabiliyorsunuz. Aynı zamanda requestler arası veri aktarabiliyor, bir api’nin çıktısını diğerinin outputu olacak şekilde geliştirme yapabiliyorsunuz. 
+* Hazırladığınız request’leri export edip arkadaşlarınızla da paylaşabiliriz. Aynı zamanda requestler arası veri aktarabilir, bir api’nin çıktısını diğerinin outputu olacak şekilde geliştirme yapabiliriz. 
 
 **POST-GET-PUT-DELETE**
-* GET: Sunucudan sadece veri çekmek(okuma) istiyorsak yani veri üzerinde herhangi bir değişiklik(ekleme, slime, modifiye) yapılmayacaksa GET metodunu kullanmamız tavsiye ediliyor.
-* POST: Server Api’e body kısmını doldurarak ve veri üzerinde değişiklik yapmak istediğimizde kullanabiliriz
-Değişilik yapmak ile kastedilen CRUD operasyonlarından Create ve Update kısımlarını kapsar.
+* GET: Sunucuda herhangi bir değişiklik (ekleme, slime, modifiye) yapılmayacaksa sadece veri çekmek(okuma) istiyorsak Get metodunu kullanabiliriz.
+* POST: Server Api’e body kısmını doldurarak ve veri üzerinde değişiklik yapmak istediğimizde kullanabiliriz. CRUD operasyonlarından Create ve Update kısımlarını kapsar.
 * PUT: Post isteğinin özelliklerine sahiptir. Yani CRUD operasyonlarından Create ve Update operasyonlarını yapmak istediğimizde kullanıyoruz.
-* DELETE: CRUD operasyonlarından Delete’e karşılık gelir. Bir veriyi silmek istediğimizde kullanılması tavsiye ediliyor.  
+* DELETE: CRUD operasyonlarından Delete’e karşılık gelir. Bir veriyi silmek istediğimizde kullanabiliriz.  
   
  API (Application Programming Interface - Uygulama Programlama Arayüzü)
    
-API, karmaşıklığı yazılım geliştiricilerden gizleyen, kodları düzenleyen ve bileşenleri yeniden kullanılabilir hale getiren bir mekanizmadır.
+API:  karmaşıklığı yazılım geliştiricilerden gizleyen, kodları düzenleyen ve bileşenleri yeniden kullanılabilir hale getiren bir mekanizmadır.
 Bir uygulamanın, servisin ve/veya platformun (örn. Chrome, Firefox, HTML, macOS, Youtube, Twitter, Facebook, Google, WordPress, Ubuntu, Android, jQuery, ...) sahip olduğu yeteneklere izin verilen sınırlandırmalar dahilinde dışarıdan erişilebilmesini sağlayan bir arayüzdür.
 
    REST API ve SOAP API Nedir?
@@ -31,7 +30,7 @@ Bir uygulamanın, servisin ve/veya platformun (örn. Chrome, Firefox, HTML, macO
 * Client-server arasında yani kullanıcı ile sunucu arasında daha hızlı ve daha pratik bir şekilde iletişim gerçekleştirilmesi için kullanılan bir servis yapısıdır.
 
 *Rest Mimarisi ve Tarihçesi
-* Bu servis Roy Thomas Fielding tarafından 2000 yılında geliştirilmiş.
+* Bu servis Roy Thomas Fielding tarafından 2000 yılında geliştirilmiştir.
 * Performans açısından baskın bir avantaja sahiptir.
 * Çok sade ve rahat kullanılabilir bir arayüzü bulunmaktadır.
 * REST, servis ajanlarınca yani hizmet vekilleri tarafından bileşenler arasındaki haberleşme görünürlüğü sağlamaktadır.
@@ -47,7 +46,7 @@ Bir uygulamanın, servisin ve/veya platformun (örn. Chrome, Firefox, HTML, macO
 * Client-Serer Mimarisi (Kullanıcı-Sunucu Mimarisi)
 
 **RESTFUL NEDİR**
-* REST bir mimari yapı oluşturmak ile birlikte bu mimari yapı kendine ait bir prensibe sahiptir ve belirlenen özellikleri ile kullanım gerçekleştirildiğinde, bu kullanım sonucunda da RESTful servis ortaya çıkar. Yani net bir tanım açısından RESTful için REST mimari kullanımı gerçekleştiren web servisleridir denilebilir.
+* REST bir mimari yapı oluşturmak ile birlikte bu mimari yapı kendine ait bir prensibe sahiptir ve belirlenen özellikleri ile kullanım gerçekleştirildiğinde, bu kullanım sonucunda da RESTful servis ortaya çıkar. Yani RESTful için REST mimari kullanımı gerçekleştiren web servisleridir.
 * Genellikle HTTP protokolü üzerinden çalışma gösteren RESTful servisleri, bilgisayar veya cihazlarda kullanılan internet tarayıcıları üzerinde yani Safari, Google Chrome, Mozilla, Opera gibi tarayıcılarda kullanılan sayfaların transferini sağlayabilmek açısından DELETE, PUT, POST gibi HTTP metotları sayesinde haberleşme sağlarlar.
 
 
